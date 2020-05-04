@@ -1,0 +1,22 @@
+<project>
+  <groupId>edu.berkeley</groupId>
+  <artifactId>producer</artifactId>
+  <modelVersion>4.0.0</modelVersion>
+  <name>Processor application</name>
+  <packaging>jar</packaging>
+  <version>1.0</version>
+
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients -->
+    <dependency>
+      <groupId>org.apache.kafka</groupId>
+      <artifactId>kafka-clients</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+  </dependencies>
+</project>
